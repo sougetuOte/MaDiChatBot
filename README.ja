@@ -1,5 +1,6 @@
-# MastdonChatBot01
+# MaDiChatBot
 ChatGPT-3のAPIを使ったMastodon用チャットボットです。2023年3月20日現在、開発中です。
+現在はMastdon専用ですが、将来的にはDiscordでも動くようにしたいと思い、MaDiと付けました。
 
 ## 概要
 ChatGPT-4と開発したMastdon用チャットボットです。
