@@ -1,0 +1,11 @@
+-- 新しいデータベースを作成(rootでログイン)
+CREATE DATABASE new_schema;
+
+-- 新しいユーザーを作成
+CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'new_password';
+
+-- 新しいデータベースに対するユーザーの権限を付与
+GRANT ALL PRIVILEGES ON new_schema.* TO 'new_user'@'localhost';
+
+-- 権限の変更を反映
+FLUSH PRIVILEGES;
